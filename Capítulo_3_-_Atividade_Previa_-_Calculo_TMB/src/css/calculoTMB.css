@@ -1,0 +1,41 @@
+.dados {
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  border-style: dashed;
+  border-radius: 5%;
+  align-items: center;
+}
+
+#resultado {
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  border-style: dashed;
+  border-radius: 5%;
+  align-items: center;
+}
+
+.inputCalculo {
+  border-radius: 10%;  
+}
+
+.inputs {
+  padding-top: 10px;
+  border-radius: 5%;
+}
+
+.divRadio {
+  padding-top: 10px;
+}
+
+.menorItalico {
+  font-size: smaller;
+  font-style: italic;
+}

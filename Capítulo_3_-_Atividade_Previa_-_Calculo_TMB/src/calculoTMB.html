@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/calculoTMB.css">
+  <title>Calculadora de TMB</title>
+</head>
+<body>
+  <form>
+      <div class="dados">
+        <label for="inputPeso" class="inputs">Peso: <input name="" id="inputPeso" class="inputCalculo"> <span class="menorItalico">(em quilos)</span></label>
+        <label for="inputAltura" class="inputs">Altura: <input name="" id="inputAltura" class="inputCalculo"> <span class="menorItalico">(em centímetros)</span></label>
+        <label for="inputIdade"class="inputs">Idade: <input name="" id="inputIdade" class="inputCalculo"></label>
+        
+        <div class="divRadio">
+          <input type="radio" name="sexo" id="inputSexoM" checked/> Masculino
+          <input type="radio" name="sexo" id="inputSexoF"/> Feminino
+        </div>
+        
+      </div>
+
+      <div id="resultado">
+        <label>Taxa de metabolismo basal (TMB): <span id="resultadoCalculo"></span></label>
+      </div>
+  </form>
+
+  <script src="./js/calculoTMB.js"></script>
+</body>
+</html>

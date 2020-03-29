@@ -15,7 +15,7 @@ const family = [
   },
   {
     gender: 'female',
-    name: {title: 'Mr', first: 'Ludmila', last: 'Rosa'},
+    name: {title: 'Miss', first: 'Ludmila', last: 'Rosa'},
     birth: '25/10/2014',
     age: 5,
     email: 'ludmila.bm.rosa@gmail.com'
